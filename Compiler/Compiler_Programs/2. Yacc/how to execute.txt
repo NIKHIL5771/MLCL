@@ -1,0 +1,12 @@
+This lab assignment is to be run in Ubuntu Terminal.
+1) Install yacc by the following command - sudo apt install byacc
+2) Now run the following commands-
+
+lex lexfparser.l
+yacc -d parser.l
+gcc lex.yy.c y.tab.c -w
+./a.out
+
+Sample Inputs-
+
+

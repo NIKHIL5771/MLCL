@@ -1,0 +1,22 @@
+These programs are to be run in Ubuntu Terminal.
+Assignment 01 : Write a program to find out whether given input is a letter or digit
+
+1) Install flex 
+sudo apt-install flex
+
+2) Run the following commands for a file "filename.l"
+flex filename.l
+gcc lex.yy.c -lfl
+./a.out
+
+
+Sample Inputs : 
+
+lex program 1 -
+lex program 2 - 
+bird
+Him
+lex program 3 - 
+=
+while
+

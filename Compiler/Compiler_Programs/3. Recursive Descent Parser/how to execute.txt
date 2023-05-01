@@ -1,0 +1,13 @@
+Double click on the file
+
+              Or
+
+Open the file in any code editor. Make sure python is intalled (Windows or Ubuntu). Type -
+python Recursive_Descent_Parser.py
+
+
+Sample Input 1 -
+i+i*i 
+
+Sample Input 2 -
+i-i
